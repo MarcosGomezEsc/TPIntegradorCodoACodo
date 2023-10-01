@@ -44,6 +44,7 @@
         font-weight: 600;
     }
     .h3{
+        top: -10%;
         font-size: 5rem;
         max-width: 100%;
         top: 45rem;
@@ -56,7 +57,7 @@
     .btnDiv{
         display: flex;
         justify-content: space-around;
-        top: 90%;
+        top: 80%;
         right:37%;
         position: absolute;
     }
@@ -83,24 +84,39 @@
 
 
 /*3raParte*/
-    .Hawii_img, .Hawii_img img{
+    .card{
+        height: 70rem;
+        display: flex;
+        justify-content: space-around;
+        background-color: darkslategrey;
+    }
+
+
+    .card-body{
+            width: 10rem;
+    }
+
+
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 4rem;
+        justify-content: space-around;}
+
+    .form h4, .form h2, .form h5{        text-align: center;
         width: 100%;
     }
 
 
+    .footer{
+        color: aliceblue;
+    }
+
+
+/*MEDIAQUERYYSSS*/
 
 
 
-
-    
-/*media querys*/
-/* `xs` returns only a ruleset and no media query
-*/
-/* ... { ... }
-*/
-
-/* `sm` applies to x-small devices (portrait phones, less than 576px)
-*/
 @media (max-width: 575.98px) { 
     
 }
